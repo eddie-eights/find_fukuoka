@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Find FUKUOKA</title>
+		<meta name="destion" content="This site is for testing." />
+		<link rel="icon" href="images/logo_fuk2.png" />
+		<link rel="stylesheet" href="styles/loader.css" />
+
+		<script src="scripts/vendors/pace.js"></script>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Kameron:wght@400;700&family=Noto+Sans+JP:wght@500&display=swap"
+			rel="stylesheet" />
+		<link rel="stylesheet" href="styles/vendors/css-reset.css" />
+		<link rel="stylesheet" href="styles/vendors/swiper-bundle.min.css" />
+		<link rel="stylesheet" href="styles/style.css" />
+
+		<script src="scripts/vendors/gsap.min.js" defer></script>
+
+		<script src="scripts/vendors/swiper-bundle.min.js" defer></script>
+		<script src="scripts/libs/hero-slider.js" defer></script>
+
+		<script src="scripts/vendors/scroll-polyfill.js" defer></script>
+		<script src="scripts/libs/scroll.js" defer></script>
+
+		<script src="scripts/libs/mobile-menu.js" defer></script>
+
+		<script src="scripts/libs/text-animation.js" defer></script>
+		<script src="scripts/main.js" defer></script>
+		<script>
+			function ready() {
+				alert("Sorry...\nIt's not ready yet.");
+			}
+		</script>
+	</head>
+	<body>
+		<div id="global-container">
+			<div id="container">
+				<div class="mobile-menu__cover"></div>
+				<div class="nav-trigger"></div>
+				<header class="header">
+					<div class="header__inner appear up">
+						<div class="logo item">
+							<!-- <img class="logo__img" src="images/logo_fuk2.png" /> -->
+							<span class="logo__find">Find</span>
+							<span class="logo__fukuoka">FUKUOKA</span>
+						</div>
+						<nav class="header__nav">
+							<ul class="header__ul">
+								<li class="header__li item">
+									<a href="#" onclick="ready()">Portfolio</a>
+								</li>
+								<li class="header__li item">
+									<a href="#" onclick="ready()">Works</a>
+								</li>
+								<li class="header__li item">
+									<a
+										class="btn filled"
+										href="https://www.wantedly.com/id/efukuda"
+										target="_blank"
+										>Contact</a
+									>
+								</li>
+							</ul>
+						</nav>
+						<button class="mobile-menu__btn">
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+					</div>
+				</header>
+				<div id="content">
+					<div class="hero">
+						<div class="swiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="hero__title">Urban</div>
+									<img src="images/seaside_momochi.jpeg" alt="" />
+								</div>
+								<div class="swiper-slide">
+									<div class="hero__title">History</div>
+									<img src="images/dasaifu_tenmangu.jpeg" alt="" />
+								</div>
+								<div class="swiper-slide">
+									<div class="hero__title">Nature</div>
+									<img src="images/shiraito.png" alt="" />
+								</div>
+								<div class="swiper-slide">
+									<div class="hero__title">Food</div>
+									<img src="images/Mentaijyu.png" alt="" />
+								</div>
+							</div>
+							<div class="hero__footer">
+								<img class="hero__downarrow" src="images/arrow.svg" />
+								<span class="hero__scrolltext">scroll</span>
+							</div>
+						</div>
+					</div>
+					<div id="main-content">
+						<aside class="side left">
+							<div class="side__inner">
+								<a href="#" class="twitter icon tween-animate-title">Twitter</a>
+								<a href="#" class="fb icon tween-animate-title">Facebook</a>
+							</div>
+						</aside>
+						<main>
+							<section class="foods" id="foods">
+								<div>
+									<h2 class="main-title tween-animate-title">Popular Foods</h2>
+									<p class="sub-title tween-animate-title">
+										福岡随一の人気店をご紹介
+									</p>
+								</div>
+								<div class="foods__inner">
+									<a
+										class="foods__item"
+										href="https://ichiran.com/index.php"
+										target="_blank">
+										<div class="cover-slide hover-darken">
+											<div
+												class="bg-img-zoom img-bg50"
+												style="
+													background-image: url(images/ramen_ichiran.png);
+												"></div>
+										</div>
+										<p class="foods__title">天然とんこつラーメン一蘭</p>
+									</a>
+									<a
+										class="foods__item"
+										href="https://motsunabe-maedaya.com/"
+										target="_blank">
+										<div class="cover-slide hover-darken">
+											<div
+												class="bg-img-zoom img-bg50"
+												style="
+													background-image: url(images/motsunabe-maedaya.jpeg);
+												"></div>
+										</div>
+										<p class="foods__title">博多もつ鍋前田屋</p>
+									</a>
+
+									<a
+										class="foods__item"
+										href="https://www.mentaiju.com/"
+										target="_blank">
+										<div class="cover-slide hover-darken">
+											<div
+												class="bg-img-zoom img-bg50"
+												style="
+													background-image: url(images/Mentaijyu.png);
+												"></div>
+										</div>
+										<p class="foods__title">元祖博多めんたい重</p>
+									</a>
+									<a
+										class="foods__item"
+										href="https://satsumanotoride.gorp.jp/"
+										target="_blank">
+										<div class="cover-slide hover-darken">
+											<div
+												class="bg-img-zoom img-bg50"
+												style="
+													background-image: url(images/ItoshimaShokudo2.png);
+												"></div>
+										</div>
+										<p class="foods__title">糸島食堂</p>
+									</a>
+
+									<a
+										class="foods__item"
+										href="https://yoshizukaunagi.com/"
+										target="_blank">
+										<div class="cover-slide hover-darken">
+											<div
+												class="bg-img-zoom img-bg50"
+												style="
+													background-image: url(images/yoshiduka_unagiya.webp);
+												"></div>
+										</div>
+										<p class="foods__title">吉塚うなぎ屋</p>
+									</a>
+									<a
+										class="foods__item"
+										href="https://hakata-kikuya.com/"
+										target="_blank">
+										<div class="cover-slide hover-darken">
+											<div
+												class="bg-img-zoom img-bg50"
+												style="background-image: url(images/kikuya.png)"></div>
+										</div>
+										<p class="foods__title">喜久家</p>
+									</a>
+
+									<div class="foods__btn appear up">
+										<button class="btn slide-bg item" onclick="ready()">
+											さらに見る
+										</button>
+									</div>
+								</div>
+							</section>
+							<section class="popular" id="places">
+								<div class="popular__header">
+									<h2 class="main-title tween-animate-title">Popular Place</h2>
+									<p class="sub-title tween-animate-title">
+										人気スポットをご紹介
+									</p>
+								</div>
+								<div class="popular__inner appear up">
+									<div class="popular__container">
+										<div class="popular__item item">
+											<div class="popular__img">
+												<img src="images/seaside_momochi.jpeg" alt="" />
+											</div>
+											<p class="popular__title">シーサイドももち浜</p>
+										</div>
+										<div class="popular__item item">
+											<div class="popular__img">
+												<img src="images/dasaifu_tenmangu.jpeg" alt="" />
+											</div>
+											<p class="popular__title">太宰府天満宮</p>
+										</div>
+										<div class="popular__item item">
+											<div class="popular__img">
+												<img src="images/shiraito.png" alt="" />
+											</div>
+											<p class="popular__title">白糸の滝</p>
+										</div>
+										<div class="popular__item item">
+											<div class="popular__img">
+												<img src="images/futamigaura2.png" alt="" />
+											</div>
+
+											<p class="popular__title">二見ヶ浦</p>
+										</div>
+										<div class="popular__btn appear up">
+											<!-- <button class="btn cover-3d item" onclick="ready();">
+                        <span>一覧から探す</span>
+                      </button> -->
+										</div>
+									</div>
+								</div>
+							</section>
+						</main>
+					</div>
+				</div>
+				<div class="footer appear up">
+					<div class="logo item">
+						<span class="logo__find">Find</span>
+						<span class="logo__fukuoka">FUKUOKA</span>
+					</div>
+					<nav class="footer__nav">
+						<ul class="footer__ul">
+							<li class="footer__li item">
+								<a href="#" onclick="ready()">Portfolio</a>
+							</li>
+							<li class="footer__li item">
+								<a href="#" onclick="ready()">Works</a>
+							</li>
+							<li class="footer__li item">
+								<a href="https://www.wantedly.com/id/efukuda" target="_blank"
+									>Contact me</a
+								>
+							</li>
+						</ul>
+						<!-- <div class="footer__copyright item">&copy; eddie eight</div> -->
+					</nav>
+				</div>
+			</div>
+			<nav class="mobile-menu">
+				<div class="logo">
+					<span class="logo__find">Find</span>
+					<span class="logo__fukuoka">FUKUOKA</span>
+				</div>
+				<ul class="mobile-menu__main">
+					<li class="mobile-menu__item">
+						<a class="mobile-menu__link" href="#" onclick="ready()">
+							<span class="main-title">Portfolio</span>
+							<span class="sub-title">ポートフォリオはこちら</span>
+						</a>
+					</li>
+					<li class="mobile-menu__item">
+						<a class="mobile-menu__link" href="#" onclick="ready()">
+							<span class="main-title">Works</span>
+							<span class="sub-title">他のプロジェクトはこちら</span>
+						</a>
+					</li>
+					<li class="mobile-menu__item">
+						<a
+							class="mobile-menu__link"
+							href="https://www.wantedly.com/id/efukuda"
+							target="_blank">
+							<span class="main-title">Contact</span>
+							<span class="sub-title">コンタクト方法</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</body>
+</html>
